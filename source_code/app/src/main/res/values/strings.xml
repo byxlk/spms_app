@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">spms</string>
 
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="default_time">2019-12-31 12:00:00</string>
 </resources>
