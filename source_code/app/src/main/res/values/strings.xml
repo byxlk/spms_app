@@ -2,4 +2,35 @@
     <string name="app_name">spms</string>
 
     <string name="default_time">2019-12-31 12:00:00</string>
+    <string name="shezhi">设置</string>
+    <string name="chaxun">查询</string>
+    <string name="dakai">开</string>
+    <string name="guanbi">关</string>
+    <string name="dianyuanzongkaiguan">电源总开关</string>
+    <string name="dianya">电压</string>
+    <string name="pinlv">频率</string>
+    <string name="zongyongdianliang">总用电量</string>
+    <string name="zongloudianliu">总漏电流</string>
+    <string name="yongdianliang">用电量</string>
+    <string name="loudianliu">漏电流</string>
+    <string name="keting">客厅</string>
+    <string name="ketingkongtiao">客厅空调</string>
+    <string name="canting">餐厅</string>
+    <string name="weishengjian">卫生间</string>
+    <string name="zhuwo">主卧</string>
+    <string name="zhuwokongtiao">主卧空调</string>
+    <string name="woshiyi">卧室一</string>
+    <string name="woshiyikongtiao">卧室一空调</string>
+    <string name="woshier">卧室二</string>
+    <string name="woshierkongtiao">卧室二空调</string>
+    <string name="ertongfang">儿童房</string>
+    <string name="ertongfangkongtiao">儿童房空调</string>
+    <string name="shufang">书房</string>
+    <string name="shufangkongtiao">书房空调</string>
+    <string name="chufang">厨房</string>
+    <string name="chufangdianqi">厨房电器</string>
+    <string name="volt">V</string>
+    <string name="hz">Hz</string>
+    <string name="kwh">Kwh</string>
+    <string name="ma">mA</string>
 </resources>
