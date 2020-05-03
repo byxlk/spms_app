@@ -163,3 +163,25 @@ public class FullscreenActivity extends AppCompatActivity {
         mHideHandler.postDelayed(mHideRunnable, delayMillis);
     }
 }
+
+class NativeJNI {
+    // Used to load the 'native-lib' library on application startup.
+    static {
+        // The runtime will add "lib" on the front and ".o" on the end of
+        // the name supplied to loadLibrary.
+        System.loadLibrary("rs485-jni");
+    }
+
+    /**
+     * A native method that is implemented by the 'native-lib' native library,
+     * which is packaged with this application.
+     */
+    static native String stringFromJNI();
+    static native int 	SerialPort_Open(int Port, int Rate, int nBits, char nEvent, int nStop);
+    static native int 	SerialPort_Close();
+    static native int[]	SerialPort_Read();
+    static native int	SerialPort_Write(int[] buffer,int len);
+    public native int   RS485IO_Open();
+    public native int   RS485IO_Close();
+    public native int   RS485IO_Ioctl(int num, int en);
+}
